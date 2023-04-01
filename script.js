@@ -5,7 +5,7 @@ let elGener = select("#sortbygenre");
 let elCardTemplate = select("#card-template");
 let elCardTemplates = document.createDocumentFragment()
 let elModalTemlate = select("#modal-temlate");
-let key = "58ed228a"
+let key = "d91a48a2"
 
 elForm.addEventListener("submit", evt => {
     evt.preventDefault()
