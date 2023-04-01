@@ -57,7 +57,7 @@ elForm.addEventListener("submit", evt => {
 
 
 async function getApi(searchInp, key) {
-    let data = await fetch(`http://www.omdbapi.com/?apikey=${key}&s=${searchInp}`)
+    let data = await fetch(`https://www.omdbapi.com/?apikey=${key}&s=${searchInp}`)
         .then((res) => res.json())
         .then((data) => data.Search)
         .catch((error) => console.log(error))
