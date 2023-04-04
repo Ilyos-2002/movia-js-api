@@ -83,6 +83,9 @@ function renderFunc(array, element) {
         p.textContent = film.Year;
         btn.dataset.id = film.imdbID;
 
+        // img.setAttribute("width", "270px")
+        // img.setAttribute("height", "270px")
+
         btn.addEventListener("click", (evt) => {
             let filmId = evt.target.dataset.id
 
